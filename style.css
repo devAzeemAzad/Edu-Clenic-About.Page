@@ -1,0 +1,782 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #edf6ff;
+}
+
+.page1 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    width: 100vw;
+    height: 100vh;
+}
+
+.left img {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.right {
+    width: 100vw;
+    height: 100vh;
+    background-color: #9BB4FF;
+}
+
+.higher {
+    position: absolute;
+    width: 45vw;
+}
+
+.higher1 {
+    position: absolute;
+    width: 0.1vw;
+    padding-left: 4vw;
+}
+
+.higher span {
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.higher1 span {
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    font-weight: 600;
+
+}
+.p1 {
+    position: absolute;
+    top: 61vh;
+    right: 13vw;
+    width: 32vw;
+    text-align: center;
+    color: #15212e;
+    font-weight: 500;
+    font-size: 1.1vw;
+}
+
+.page2 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.page2head{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.page2head span{
+    font-size: 1.3vw;
+    margin-bottom: 5vh;
+}
+.page2content{
+    width: auto;
+}
+.page2content span{
+    font-weight: 600;
+    font-size: 1.4vw;
+    letter-spacing: 0.06vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+.eye{
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+}
+.page3 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.page3content {
+    width: 80vw;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 1vw;
+    padding: 1.5vw;
+    margin-top: 12vh;
+    justify-content: space-between;
+    position: relative;
+    gap: 3vw;
+}
+
+.left1 {
+    width: 90vw;
+}
+
+.left1 span {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.line {
+    display: flex;
+    width: 5vw;
+    height: 0.6vh;
+    background-color: #0a1c44;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.left1 p {
+    padding-top: 5vh;
+    font-size: 0.9vw;
+}
+
+.right1 img {
+    width: 20vw;
+}
+
+.page4 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.page4content {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    margin-bottom: 5vh;
+    position: relative;
+}
+
+.line1 {
+    width: 0.1vw;
+    position: absolute;
+    height: 6vh;
+    left: 25vw;
+    top: 2vh;
+    background-color: #0a1c44;
+}
+
+.line2 {
+    width: 0.1vw;
+    position: absolute;
+    height: 6vh;
+    left: 48vw;
+    top: 2vh;
+    background-color: #0a1c44;
+}
+
+.page4content1 span {
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page4content1 p {
+    padding-top: 2vh;
+    font-size: 0.9vw;
+}
+
+.page5 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page5content {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 4vw;
+    margin-top: 4vh;
+    margin-bottom: 12vh;
+}
+
+.page5content1 span {
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page5content1 p {
+    padding-top: 2vh;
+    font-size: 0.9vw;
+}
+.line3 {
+    width: 0.1vw;
+    position: absolute;
+    height: 6vh;
+    left: 23vw;
+    top: 2vh;
+    background-color: #0a1c44;
+}
+.page6 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page6content {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 10vw;
+}
+
+.page6content img {
+    width: 20vw;
+    border-radius: 1vw;
+    height: auto;
+    position: absolute;
+    left: 5vw;
+}
+
+.card {
+    width: 61%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    padding: 6vw;
+    border-radius: 1vw;
+    background-color: #ffffff;
+}
+.cardtext {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 24%;
+}
+.cardtext span {
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.cardtext p{
+    padding-top: 2vh;
+}
+.cardtext ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: disc;
+    padding-top: 1vh;
+}
+.cardtext ul li {
+    font-size: 0.9vw;
+}
+.page7{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+}
+#frame {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+}
+.customer{
+    font-size: 1.6vw;
+    font-weight: 600;
+    color: #000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.frame-content p{
+    margin-top: 10vh;
+    font-size: 1.3vw;
+    color: #444;
+    font-weight: 400;
+}
+#frame input[type=radio] {
+    display: none;
+}
+
+#frame label {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#slides {
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+#overflow {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#frame1:checked~#slides .inner {
+    margin-left: 0;
+}
+
+#frame2:checked~#slides .inner {
+    margin-left: -100%;
+}
+
+#frame3:checked~#slides .inner {
+    margin-left: -200%;
+}
+
+#frame4:checked~#slides .inner {
+    margin-left: -300%;
+}
+
+#slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 200px;
+}
+
+#slides .frame {
+    width: 25%;
+    float: left;
+    display: flex;
+    padding-bottom: 4vh;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFF;
+}
+#controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+#controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+#controls label:hover {
+    opacity: 1;
+}
+#frame1:checked~#controls label:nth-child(2),
+#frame2:checked~#controls label:nth-child(3),
+#frame3:checked~#controls label:nth-child(4),
+#frame4:checked~#controls label:nth-child(1) {
+    background:
+        url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float: right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
+
+#frame1:checked~#controls label:nth-last-child(2),
+#frame2:checked~#controls label:nth-last-child(3),
+#frame3:checked~#controls label:nth-last-child(4),
+#frame4:checked~#controls label:nth-last-child(1) {
+    background:
+        url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float: left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+
+#bullets {
+    margin: 150px 0 0;
+    text-align: center;
+}
+
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+#frame1:checked~#bullets label:nth-child(1),
+#frame2:checked~#bullets label:nth-child(2),
+#frame3:checked~#bullets label:nth-child(3),
+#frame4:checked~#bullets label:nth-child(4) {
+    background: #444;
+}
+
+@media screen and (max-width: 900px) {
+
+    #frame1:checked~#controls label:nth-child(2),
+    #frame2:checked~#controls label:nth-child(3),
+    #frame3:checked~#controls label:nth-child(4),
+    #frame4:checked~#controls label:nth-child(1),
+    #frame1:checked~#controls label:nth-last-child(2),
+    #frame2:checked~#controls label:nth-last-child(3),
+    #frame3:checked~#controls label:nth-last-child(4),
+    #frame4:checked~#controls label:nth-last-child(1) {
+        margin: 0;
+    }
+
+    #slides {
+        max-width: calc(100% - 140px);
+        margin: 0 auto;
+    }
+}
+.page8{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    margin-top: 13vh;
+    align-items: center;
+    gap: 9vw;
+    justify-content:center;
+}
+.left2{
+    width: 45vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.whoare{
+    font-size: 2vw;
+    text-align: center;
+    letter-spacing: 0.4vw;
+    font-weight: bold;
+    padding-right: 2vw;
+    padding-bottom: 3vw;
+}
+.office{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.office1{
+    border: 0.2vw solid #ffffff ;
+    padding: 2vw ;
+    border-radius: 1vw;
+    margin-bottom: 5vh;
+    position: relative;
+    width: 22vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.office1:hover{
+    border: 0.2vw solid #000000
+}
+.office2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.office2 span{
+    font-size: 1vw;
+    font-weight: bolder;
+    padding-left: 2vw;
+}
+.office2 ul{
+    font-size: 0.95vw;
+    padding-top: 1vh;
+    padding-left: 2vw;
+}
+.right2{
+    width: 60vw;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.contactstext{
+    padding: 0.4vw;
+    border-radius: 1vw;
+    background-color: #9BB4FF;
+}.contacts{
+    height: 55vh !important;
+}
+.contacts1 span{
+    font-size: 5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contacts1 ul{
+    width: 40vw;
+    margin: 1vh;
+    font-size: 1.2vw;
+}
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 40vw;
+    margin-top: 5%;
+}
+.name1{
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    margin-left: 1vw;
+    padding: 2.2vh 2vw;
+    height: auto;
+    width: 20vw;
+    font-size: 1vw;
+}
+.name1:hover{
+    background-color:  #F8F8F8;
+}
+.name2{
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    margin-top: 2vh;
+    padding: 2.2vh 2vw;
+    height: 20vh;
+    width: 41vw !important;
+    font-size: 1vw;
+}
+.name2:hover{
+    background-color:  #F8F8F8;}
+.submit1{
+    border:2px solid black;
+    text-decoration: none;
+    background-color: #9BB4FF;
+    border-radius: 2vw;
+    margin-top: 2vh;
+    padding: 1vw;
+    width: 10vw;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+.submit1:hover{
+    background-color: #FF9083;
+}
+.submit1 a{
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width: 1250px){
+    .p1{
+        font-size: 1.2vw;
+        width: 35vw;
+        right: 10.5vw;
+    }
+    .cardtext ul li{
+        font-size: 1.08vw;
+    }
+
+}
+@media screen and (max-width: 1150px){
+    .left2{
+        width: 40vw;
+    }
+    .right2{
+        width: 60vw;
+    }
+    .contacts1 ul{
+        width: 45vw;
+    }
+    .office1{
+        width: 23vw;
+        padding: 3vw 0.1vw;
+    }
+    .office2 span{
+        font-size: 1.4vw;
+    }
+    .office2 ul{
+        font-size:1.25vw ;
+    }
+}
+@media screen and (max-width: 1024px){
+    .page4content{
+        width: 80vw;
+    }
+    .page4content1 span{
+        font-size: 1.7vw;
+    }
+    .page4content1 p{
+        font-size: 1.1vw;
+        width: 24vw;
+    }
+    .line2{
+        left: 53vw;
+        width: 0.3vw;
+
+    }
+    .line1{
+        width: 0.2vw;
+    }
+    .line3{
+        width: 0.2vw;
+        left: 24.5vw;
+    }
+    .page5content1 span{
+        font-size: 1.7vw;
+    }
+    .page5content1 p{
+        font-size: 1.1vw;
+        width: 24vw;
+    }
+    .cardtext span{
+        font-size: 1.5vw;
+    }
+    .cardtext ul li{
+        font-size: 1.2vw;
+        font-weight: 400;
+    }
+    .page6content {
+        width: 90vw;
+    }
+    .page6content img {
+        width: 25vw;
+    }
+    .cardtext {
+        padding-left: 29%;
+    }
+    #controls{
+        height: 20px;
+    }
+    .customer{
+        font-size: 1.8vw;
+    }
+    .frame-content p {
+        font-size: 1.5vw;
+    }
+    .left1 p {
+        font-size: 1.11vw;
+    }
+    .page3content {
+        margin-top: 9vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .page3content {
+        width: 90vw;
+        gap: 5vw;
+        padding:2vw ;
+    }
+    .left1 p {
+        font-size: 1.3vw;
+    }
+    .page2head span {
+        font-size: 1.5vw;
+        font-weight: 500;
+    }
+    .page2content{
+        width: 90vw;
+    }
+    .page2content span {
+        font-weight: 600;
+        font-size: 1.8vw;
+    }
+    .page2head {
+        text-align: center;
+    }
+    .page5content {
+        width: 70vw;
+        gap: 5vw;
+        margin-top: 3vh;
+        margin-bottom: 10vh;
+    }
+    .line1{
+        left: 24.5vw;
+    }
+    .line2{
+        left: 53vw;
+    }
+    .line3{
+        left: 34.5vw;
+    }
+
+    .page5content1 p {
+        font-size: 1.3vw;
+        width: 26vw;
+    }
+    .page4content1 p {
+        font-size: 1.3vw;
+        width: 24vw;
+    }
+    .page4content1 span {
+        font-size: 1.9vw;
+    }
+    .page5content1 span {
+        font-size: 1.9vw;
+    }
+    .page4content {
+        width: 80vw;
+        margin-bottom: 4.9vh;
+    }
+    .page5content{
+        margin-bottom: 9vh;
+    }
+    .card {
+        width: 69%;
+        gap: 1vh;
+        padding: 6vw;
+    }
+    .page6content img {
+        left: 1vw;
+        width: 26vw;
+    }
+    .cardtext ul li {
+        font-size: 1.5vw;
+    }
+    .cardtext span {
+        font-size: 1.9vw;
+    }
+    .customer {
+        font-size: 2vw;
+    }
+    .frame-content p {
+        margin-top: 8vh;
+        font-size: 1.8vw;
+    }
+    #slides .frame {
+        width: 25%;
+        padding-bottom: 1vh;
+    }
+    .page8 {
+        margin-top: 10vh;
+        gap: 8vw;
+    }
+}
